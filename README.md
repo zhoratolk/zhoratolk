@@ -73,9 +73,9 @@ flowchart LR
 | 📐 | **[smeta-ai-kz](https://github.com/zhoratolk/portfolio/blob/main/cases/smeta-ai-kz.md)** | AI-проверка смет: LLM отвечает только за семантику, цифры считает детерминированный код |
 | 🏛️ | **[AIkimat](https://github.com/zhoratolk/portfolio/blob/main/cases/aikimat.md)** | On-premise ассистент для госоргана: LangGraph с согласованием человеком, методика расчёта GPU |
 | 🏗️ | **[Air-gapped AI-контур](https://github.com/zhoratolk/portfolio/blob/main/cases/airgapped-design.md)** | Kubernetes + vLLM + KEDA: спроектировал и защитил, руководство выбрало интегратора |
-| 📚 | **[manga-shorts](https://github.com/zhoratolk/portfolio/blob/main/cases/manga-shorts.md)** | Vision-модель смотрит сетки превью: ~8K токенов на главу |
+| 📚 | **[manga-shorts](https://github.com/zhoratolk/portfolio/blob/main/cases/manga-shorts.md)** | Аниме-шортсы: vision-модель по сеткам превью (~8K токенов на главу), голос — дообученная модель RVC |
 | 🛒 | **[Dofamin Shop](https://github.com/zhoratolk/portfolio/blob/main/cases/dofamin-shop.md)** | Android (Next.js + Capacitor), парсер семи маркетплейсов прямо на устройстве, ~750 тестов |
-| 🎭 | **[Vtube ACMT](https://github.com/zhoratolk/portfolio/blob/main/cases/vtube-acmt.md)** | Авториг VTuber-модели по 3D-голове, GPU-замеры, лицензионная разведка |
+| 🎭 | **[Vtube ACMT](https://github.com/zhoratolk/portfolio/blob/main/cases/vtube-acmt.md)** | Генеративные модели для авто-рига VTuber: 3D по одной картинке (StdGEN), замеры на GPU, отрицательные результаты с IoU |
 | 🚀 | **[Shakedown](https://github.com/zhoratolk/portfolio/blob/main/cases/shakedown.md)** | Рогалик на Godot 4.7: 16 фаз, 650+ тестов |
 
 ## Постмортемы
