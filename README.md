@@ -61,13 +61,16 @@ flowchart LR
 
 | | Проект | Что внутри |
 |---|---|---|
+| 🧬 | **[MLOps: полный цикл модели](https://github.com/zhoratolk/portfolio/blob/main/cases/ml-lifecycle.md)** | Датасет с первого дня, бейк-офф 7 моделей на своих данных (~70× разброс цены), версии по хэшу, три слоя оценки, дообучение голосовой модели RVC |
+| 🔎 | **[RAG и память](https://github.com/zhoratolk/portfolio/blob/main/cases/rag.md)** | Гибридный поиск BGE-M3 + Qdrant (dense + sparse, RRF), трёхуровневая память, семантическая дедупликация |
+| 🔁 | **[CI/CD](https://github.com/zhoratolk/portfolio/blob/main/cases/ci-cd.md)** | Ветка `green` как контракт доставки, pull-деплой с откатом, eval-гейт LLM в CI, дрейф Ansible |
 | 🖥️ | **[Домашний GPU-сервер как код](https://github.com/zhoratolk/portfolio/blob/main/cases/gpu-server.md)** | Железо посчитано до покупки, 8 ролей Ansible, файрвол, который не отрезает сам себя, аренда GPU между проектами без общего кода |
 | 🚀 | **[Катч — SaaS нарезки стримов](https://github.com/zhoratolk/portfolio/blob/main/cases/katch.md)** | Telegram-бот: VOD → шортсы 9:16. 2 200+ тестов, pull-деплой с откатом, бюджет NVENC-сессий, circuit breaker, eval harness |
 | 🎬 | **[Shorts-Maker](https://github.com/zhoratolk/portfolio/blob/main/cases/shorts-maker.md)** | whisper large-v3 + диаризация ≈14× реального времени, рендер на NVENC, публикация через YouTube API, 1 260+ тестов |
 | 🐝 | **[swarm-orchestrator](https://github.com/zhoratolk/swarm-orchestrator)** | Рой LLM-агентов разных моделей: кворум ревью ≥3, приёмка через реальный `verify_cmd`, фильтр секретов |
 | 🛰️ | **[shortmaker-deadman](https://github.com/zhoratolk/shortmaker-deadman)** | Внешний сторож: пульс в gist + cron в Actions; замерил реальную задержку cron (медиана 163 мин) |
 | 🎙️ | **[Запой](https://github.com/zhoratolk/portfolio/blob/main/cases/zapoy.md)** | Локальный ассистент: llama.cpp, Qdrant, STT/TTS в профилях compose, red-team на prompt injection |
-| 📐 | **[smeta-ai-kz](https://github.com/zhoratolk/portfolio/blob/main/cases/smeta-ai-kz.md)** | AI-проверка смет: LLM отвечает только за семантику, цифры считает детерминированный код; RAG по СНиП РК |
+| 📐 | **[smeta-ai-kz](https://github.com/zhoratolk/portfolio/blob/main/cases/smeta-ai-kz.md)** | AI-проверка смет: LLM отвечает только за семантику, цифры считает детерминированный код |
 | 🏛️ | **[AIkimat](https://github.com/zhoratolk/portfolio/blob/main/cases/aikimat.md)** | On-premise ассистент для госоргана: LangGraph с согласованием человеком, методика расчёта GPU |
 | 🏗️ | **[Air-gapped AI-контур](https://github.com/zhoratolk/portfolio/blob/main/cases/airgapped-design.md)** | Kubernetes + vLLM + KEDA: спроектировал и защитил, руководство выбрало интегратора |
 | 📚 | **[manga-shorts](https://github.com/zhoratolk/portfolio/blob/main/cases/manga-shorts.md)** | Vision-модель смотрит сетки превью: ~8K токенов на главу |
@@ -88,7 +91,7 @@ flowchart LR
 
 | Уровень | Технологии |
 |---|---|
-| **Эксплуатирую сам** | Linux, systemd, Bash, Docker / Compose, NVIDIA Container Toolkit, CUDA / NVENC, Ansible, GitHub Actions, ufw, Tailscale, SQLite, Python, FastAPI, faster-whisper, pyannote, ffmpeg, LangGraph, LLM API, RAG |
+| **Эксплуатирую сам** | Linux, systemd, Bash, Docker / Compose, NVIDIA Container Toolkit, CUDA / NVENC, Ansible, GitHub Actions, ufw, Tailscale, SQLite, Python, FastAPI, faster-whisper, pyannote, ffmpeg, LangGraph, LLM API, бейк-офф моделей, eval harness, llama.cpp + GBNF, BGE-M3, Qdrant (гибридный поиск), RVC-дообучение |
 | **Проектировал** | Kubernetes + GPU Operator, vLLM, KEDA, Harbor, Qdrant, Redis Streams, RabbitMQ / Celery |
 | **Изучаю сейчас** | Kubernetes на практике, Terraform, Prometheus / Grafana / Loki |
 
