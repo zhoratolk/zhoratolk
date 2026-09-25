@@ -1,4 +1,4 @@
-<h1 align="center">Георгий · DevOps / MLOps-инженер</h1>
+<h1 align="center">Георгий Толкачёв · DevOps / MLOps-инженер</h1>
 
 <p align="center">
   <b>Строю и эксплуатирую инфраструктуру, на которой работают LLM- и GPU-продукты:</b><br>
@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://zhoratolk.github.io/portfolio/"><img src="https://img.shields.io/badge/сайт-портфолио-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Сайт-портфолио"></a>
+  <a href="https://t.me/joparo_me"><img src="https://img.shields.io/badge/telegram-@joparo__me-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="https://github.com/zhoratolk/portfolio"><img src="https://img.shields.io/badge/кейсы-12_·_RU_%2F_EN-1e293b?style=for-the-badge&logo=github" alt="Кейсы"></a>
 </p>
 
@@ -93,4 +94,4 @@ flowchart LR
 
 ---
 
-<p align="center"><sub>Санкт-Петербург · удалённо или гибрид · рассматриваю переезд в Алматы</sub></p>
+<p align="center"><sub>Telegram <a href="https://t.me/joparo_me">@joparo_me</a> · Санкт-Петербург · удалённо или гибрид · рассматриваю переезд в Алматы</sub></p>
